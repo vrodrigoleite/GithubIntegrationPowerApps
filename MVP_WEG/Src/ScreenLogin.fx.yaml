@@ -1,0 +1,127 @@
+ScreenLogin As screen:
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(236, 131, 4, 1)
+        Height: =768
+        Width: =619
+        X: =747
+        ZIndex: =1
+
+    Image2 As image:
+        Height: =445
+        Image: ='weg-2'
+        Width: =665
+        Y: =322
+        ZIndex: =2
+
+    Image5 As image:
+        Height: =393
+        Image: ='WEG-1'
+        Width: =701
+        X: =665
+        Y: =375
+        ZIndex: =3
+
+    Image4 As image:
+        Height: =456
+        Image: ='weg-4'
+        Width: =825
+        ZIndex: =4
+
+    Image7 As image:
+        Height: =171
+        Image: ='weg-solar'
+        Width: =188
+        X: =972
+        ZIndex: =13
+
+    GroupLogin As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =13
+
+        Button1 As button:
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =573
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Text: =""
+            Width: =539
+            X: =798
+            Y: =29
+            ZIndex: =5
+
+        Label1 As label:
+            Align: =Align.Center
+            Color: =RGBA(0, 93, 165, 1)
+            Font: =Font.'Lato Black'
+            FontWeight: =FontWeight.Bold
+            Height: =53
+            Size: =16
+            Text: ="SGP - Sistema de Gestão de Projetos"
+            Width: =539
+            X: =798
+            Y: =186
+            ZIndex: =6
+
+        TextInput1 As text:
+            BorderColor: =RGBA(0, 93, 165, 1)
+            Default: =""
+            Font: =Font.Lato
+            HintText: ="e-mail"
+            X: =907
+            Y: =322
+            ZIndex: =8
+
+        TextInput1_1 As text:
+            BorderColor: =RGBA(0, 93, 165, 1)
+            Default: =""
+            Font: =Font.Lato
+            HintText: =""
+            Mode: =TextMode.Password
+            X: =907
+            Y: =416
+            ZIndex: =9
+
+        Label1_1 As label:
+            Color: =RGBA(0, 93, 165, 1)
+            Font: =Font.'Lato Light'
+            FontWeight: =FontWeight.Bold
+            Height: =53
+            Italic: =true
+            Size: =16
+            Text: ="Login"
+            Width: =320
+            X: =907
+            Y: =269
+            ZIndex: =10
+
+        Label1_2 As label:
+            Color: =RGBA(0, 93, 165, 1)
+            Font: =Font.'Lato Light'
+            FontWeight: =FontWeight.Bold
+            Height: =53
+            Italic: =true
+            Size: =16
+            Text: ="Senha"
+            Width: =320
+            X: =906
+            Y: =363
+            ZIndex: =11
+
+        Button2 As button:
+            Fill: =RGBA(0, 93, 165, 1)
+            OnSelect: |-
+                =Navigate(ScreenMenu,ScreenTransition.CoverRight);
+                Reset(TextInput1);
+                Reset(TextInput1_1)
+            Text: ="Entrar"
+            X: =987
+            Y: =499
+            ZIndex: =12
+

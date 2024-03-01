@@ -1,0 +1,28 @@
+{
+  "7d3bacf1-0f7e-412f-9a63-87b6435a137f": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1676/1.0.1676.3617/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ufpebr0.sharepoint.com/sites/Mesro": {
+        "dataSources": {
+          "dCredenciais": {
+            "tableName": "4acf09ac-061e-45d4-8610-a7c245ab0ffd"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "dCredenciais"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7d3bacf1-0f7e-412f-9a63-87b6435a137f"
+  }
+}

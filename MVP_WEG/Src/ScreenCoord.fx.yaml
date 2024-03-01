@@ -1,0 +1,19 @@
+ScreenCoord As screen:
+
+    PowerBI1 As powerbi:
+        Height: =768
+        TileUrl: |-
+            ="https://app.powerbi.com/reportEmbed?reportId=8990de4d-7df6-4174-9bc4-e00f99408dad&autoAuth=true&ctid=e2f77d00-0163-4cf6-92b0-484baff9df7d"
+        Width: =1366
+        ZIndex: =1
+
+    Icon1 As icon.Leave:
+        Color: =RGBA(255, 191, 0, 1)
+        Height: =49
+        Icon: =Icon.Leave
+        OnSelect: =Back()
+        Width: =37
+        X: =64
+        Y: =632
+        ZIndex: =2
+

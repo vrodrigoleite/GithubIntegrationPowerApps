@@ -1,0 +1,70 @@
+ScreenAnalista As screen:
+
+    Image6_3 As image:
+        Image: ='logo-weg'
+        X: =1244
+        Y: =12
+        ZIndex: =7
+
+    Icon1_2 As icon.BackArrow:
+        Color: =RGBA(0, 93, 165, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =35
+        Y: =30
+        ZIndex: =12
+
+    Label2 As label:
+        Color: =RGBA(0, 93, 165, 1)
+        Font: =Font.'Lato Black'
+        Text: |-
+            ="Descrição
+            "
+        X: =341
+        Y: =231
+        ZIndex: =13
+
+    TextInput2 As text:
+        Default: =""
+        Height: =308
+        HintText: ="Descreva as atividades desempenhadas"
+        Mode: =TextMode.MultiLine
+        Width: =729
+        X: =341
+        Y: =271
+        ZIndex: =14
+
+    Button3_3 As button:
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Color: =RGBA(0, 93, 165, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(219, 219, 219, 1)
+        Font: =Font.'Lato Black'
+        Height: =53
+        Size: =26
+        Text: ="Registro de Atividade"
+        Width: =729
+        X: =341
+        Y: =35
+        ZIndex: =15
+
+    Button3 As button:
+        Text: ="Registrar"
+        X: =625
+        Y: =634
+        ZIndex: =16
+
+    Dropdown1 As dropdown:
+        Items: =["Memorial Descritivo","Análise de PR"]
+        X: =341
+        Y: =154
+        ZIndex: =18
+
+    Label2_1 As label:
+        Color: =RGBA(0, 93, 165, 1)
+        Font: =Font.'Lato Black'
+        Text: ="Atividade"
+        X: =341
+        Y: =114
+        ZIndex: =19
+

@@ -1,0 +1,20 @@
+ScreenFinanceiro As screen:
+
+    PowerBI2 As powerbi:
+        Height: =768
+        TileUrl: |-
+            ="https://app.powerbi.com/reportEmbed?reportId=a48c7c94-0812-450e-bc49-f5f1f3a1770e&autoAuth=true&ctid=e2f77d00-0163-4cf6-92b0-484baff9df7d"
+        Width: =1366
+        WorkspaceId: =""
+        ZIndex: =1
+
+    Icon1_3 As icon.Leave:
+        Color: =RGBA(255, 191, 0, 1)
+        Height: =32
+        Icon: =Icon.Leave
+        OnSelect: =Back()
+        Width: =22
+        X: =175
+        Y: =692
+        ZIndex: =2
+
