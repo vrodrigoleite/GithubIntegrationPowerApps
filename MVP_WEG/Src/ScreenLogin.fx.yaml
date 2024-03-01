@@ -63,7 +63,7 @@ ScreenLogin As screen:
             FontWeight: =FontWeight.Bold
             Height: =53
             Size: =16
-            Text: ="SGP - Sistema de Gestão de Projetos"
+            Text: ="SGP - Sistema de Gestão de Projetos Solar"
             Width: =539
             X: =798
             Y: =186
